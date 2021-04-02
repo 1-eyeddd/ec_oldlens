@@ -1,0 +1,147 @@
+
+/* body */
+body {
+    background: #ffffff;
+    color: #5e5e5e;
+    font: 400 87.5%/1.5em 'Open Sans', sans-serif;
+    min-width: 900px;
+    min-height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-size: 1000px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+}
+a{
+    text-decoration: none;
+}
+image{
+max-width: 100%;
+}
+/*-------------header-------------*/
+.header-wrapper{
+display: flex;
+height: 65px;
+justify-content: space-between;
+background-color:rgb(248, 248, 248);
+
+}
+.header-top{
+display: flex;
+}
+nav{
+display: flex;
+}
+.header-top img{
+width: 50px; 
+height: 50px;
+margin: 7px 10px 7px 30px;
+}
+.header-top h1{
+font-size: 1.25rem;
+margin: auto 0;
+}
+.main-nav{
+display: flex;
+list-style: none;
+}
+.main-nav li{
+margin-left: 25px;
+margin-top: 20px;
+}
+.main-nav li:last-child a{
+padding-left: 25px;
+border-left: 1px #5e5e5e solid;
+}
+.main-nav a{
+color:#5e5e5e;
+font-size: 1.125rem;
+}
+.main-nav a:hover{
+color: #ececec;
+transition: 0.2s;
+}
+nav img{
+width: 35px;
+margin: 12px 30px 12px 20px;
+}
+
+/* main */
+.content{
+    background-color: #ececec;
+    width: 1000px;
+    margin: 60px auto;
+    padding-bottom: 50px;
+}
+.cart-list-price{
+    font-size: larger;
+    margin-left: 650px;
+}
+.cart-list-num{
+    font-size: larger;
+    margin-left: 100px;
+}
+
+h1{
+    display: inline-block;
+    margin: 30px 40px;
+}
+ul{
+    list-style: none;
+}
+.cart-list{
+    border-top : 1px black solid;
+}
+.cart-item{
+    display: flex;
+    padding: 15px;
+}
+.cart-item-img{
+    height: 125px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.cart-item-name{
+    margin-left: 80px;
+    font-size: 1.25rem;
+}
+.cart-item-del{
+    margin-left: 240px;   
+    font-size: larger;
+    color: tomato;
+}
+.cart-item-price{
+    font-size: larger;
+    margin-left: 80px;
+}
+.cart-item-num2{
+    margin-left: 100px;
+}
+.buy-sum-box{
+    border-top: 1px black solid;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.buy-sum-title{
+    margin-left: 620px;
+}
+.buy-sum-price{
+    font-size: 30px;
+    color: coral;
+    margin-left: 5px;
+}
+.buy-btn{
+    font-size: 20px;
+    color: cornsilk;
+    background-color: cornflowerblue;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 400px;
+    border-radius: 5px;
+    box-shadow:2px 2px 4px  gray;
+}
+.finishMsg{
+    display: inline-block;
+    color: darkgoldenrod;
+}

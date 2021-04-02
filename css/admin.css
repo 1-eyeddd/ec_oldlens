@@ -1,0 +1,64 @@
+h1{
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 15px;
+}
+a{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+table, tr, th, td {
+    border: solid 1px;
+    padding: 10px;
+    text-align: center;
+}
+table {
+    width: 1100px;
+    border-collapse: collapse;
+}
+th {
+    display: table-cell;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 20px;
+    border-top: solid 1px;
+}
+
+table {
+    width: 900px;
+    border-collapse: collapse;
+}
+
+table, tr, th, td {
+    border: solid 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+caption {
+    text-align: left;
+}
+
+.text_align_right { 
+    text-align: right;
+}
+
+.drink_name_width {
+    width: 100px;
+}
+
+.input_text_width {
+    width: 60px;
+}
+
+.status_false {
+    background-color: #A9A9A9;
+}
+img {
+    height: 125px;
+    width:125px;
+    object-fit: cover;
+}
